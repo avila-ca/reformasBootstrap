@@ -1,26 +1,34 @@
-// export const Footer = () => {
-//     return(
-//         <>
-//             <footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
-//                 <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-//                 <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" className="hover:underline">Diseñada por Avilac</a>
-//                 </span>
-//                 <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-//                     <li>
-//                         <a href="#" className="hover:underline me-4 md:me-6">Sobre nosotros</a>
-//                     </li>
-//                     <li>
-//                         <a href="#" className="hover:underline me-4 md:me-6">Politíca de privacidad</a>
-//                     </li>
-//                     <li>
-//                         <a href="#" className="hover:underline me-4 md:me-6">Licencia</a>
-//                     </li>
-//                     <li>
-//                         <a href="#" className="hover:underline">Contacto</a>
-//                     </li>
-//                 </ul>
-//                 </div>
-//             </footer>   
-//         </>
-//     )
-// }
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Col, Container, Row } from "react-bootstrap"
+import { faTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+
+
+export interface Props {
+    label?: React.ReactNode;
+}
+export const Footer = (_props: Props) => {
+
+    return (
+        <>
+            <footer className="bg-light py-4">
+                <Container>
+                    <Row>
+                        <Col className="text-center">
+                            <p>Conecta con nosotros en:</p>
+                            <div>
+                                <FontAwesomeIcon icon={faTwitter} className="mx-2" />
+                                <FontAwesomeIcon icon={faFacebook} className="mx-2" />
+                                <FontAwesomeIcon icon={faInstagram} className="mx-2" />
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className="text-center py-3">
+                            <p className="text-muted">© 2024 {_props.label}. Todos los derechos reservados.</p>
+                        </Col>
+                    </Row>
+                </Container>
+            </footer>
+        </>
+    )
+}
