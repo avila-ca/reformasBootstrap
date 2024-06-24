@@ -1,18 +1,27 @@
-import { Col, Container, Nav, Navbar, Image } from "react-bootstrap"
+import { Col, Container, Nav, Navbar, Image, Row } from "react-bootstrap"
 
 export const Header = () => {
     return (
         <>
 
             <Navbar bg="light" data-bs-theme="light">
-                <Container>
-                        <Image className="w-25" src="src/img/logo.png" />
-                        <Navbar.Brand href="#home">Reformas Integrales</Navbar.Brand>
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
-                    </Nav>
+                <Container className=" justify-content-between">
+                    <Row className="w-100 justify-content-between align-items-center">
+                        <Col xs="auto"> 
+                            <div className="d-flex align-items-center">
+                                <Image className="w-25" src="src/img/logo.png" />
+                                <Navbar.Brand href="#home" className="ms-2">Reformas Integrales</Navbar.Brand>
+                            </div>
+                        </Col>
+                        <Col xs="auto">
+                            <Nav className="me-auto justify-content-end">
+                                <Nav.Link href="#home">Home</Nav.Link>
+                                <Nav.Link href="#features">Features</Nav.Link>
+                                <Nav.Link href="#pricing">Pricing</Nav.Link>
+                            </Nav>
+                        
+                        </Col>
+                    </Row>
                 </Container>
             </Navbar>
         </>
