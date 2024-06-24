@@ -21,6 +21,15 @@ export const Footer = (_props: Props) => {
                                 <FontAwesomeIcon icon={faInstagram} className="mx-2" />
                             </div>
                         </Col>
+                        <Col >
+                            <div className="col-lg-6 col-md-6 mb-4 mb-md-0">
+                                <p className="">Contacto:</p>
+                                <ul className="list-unstyled mb-0">
+                                    <li>Email:<a href="mailto:" className="text-dark"> info@reformasintegrales.com</a></li>
+                                    <li>Teléfono:<a href="tel:" className="text-dark"> +34 123 456 789</a></li>
+                                </ul>
+                            </div>
+                        </Col>
                     </Row>
                     <Row>
                         <Col className="text-center py-3">
