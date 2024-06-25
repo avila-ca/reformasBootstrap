@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 export const Projects = () => {
     return (
         <>
+        <div className='ms-5'>
         <Alert.Heading className='text-center m-5'>Nuestros Proyectos</Alert.Heading>
         <Row>
             <Card className='m-5' style={{ width: '18rem' }}>
@@ -38,6 +39,7 @@ export const Projects = () => {
                 </Card.Body>
             </Card>
         </Row>
+        </div>
         </>
     )
 }
