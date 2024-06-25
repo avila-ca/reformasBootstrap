@@ -1,7 +1,9 @@
 import { Alert, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-
+import project1 from '../img/projects/project1.jpg'
+import project2 from '../img/projects/project2.jpg'
+import project3 from '../img/projects/project3.jpg'
 export const Projects = () => {
     return (
         <>
@@ -9,7 +11,7 @@ export const Projects = () => {
         <Alert.Heading className='text-center m-5'>Nuestros Proyectos</Alert.Heading>
         <Row>
             <Card className='m-5' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="src/img/projects/project1.jpg" />
+                <Card.Img variant="top" src={project1} />
                 <Card.Body>
                     <Card.Title>Reforma de Local Comercial</Card.Title>
                     <Card.Text>
@@ -19,7 +21,7 @@ export const Projects = () => {
                 </Card.Body>
             </Card>
             <Card className='m-5' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="src/img/projects/project3.jpg" />
+                <Card.Img variant="top" src={project3} />
                 <Card.Body>
                     <Card.Title>Reforma de Oficina</Card.Title>
                     <Card.Text>
@@ -29,7 +31,7 @@ export const Projects = () => {
                 </Card.Body>
             </Card>
             <Card className='m-5' style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="src/img/projects/project2.jpg" />
+                <Card.Img variant="top" src={project2} />
                 <Card.Body>
                     <Card.Title>Reforma de Habitación</Card.Title>
                     <Card.Text>
