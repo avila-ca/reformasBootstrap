@@ -9,7 +9,7 @@ export const Projects = () => {
         <>
         <div className='ms-5'>
         <Alert.Heading className='text-center m-5'>Nuestros Proyectos</Alert.Heading>
-        <Row>
+        <Row className='d-flex justify-content-center'>
             <Card className='m-5' style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={project1} />
                 <Card.Body>
