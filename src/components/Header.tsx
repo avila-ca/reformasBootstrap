@@ -1,6 +1,7 @@
 import { Col, Container, Nav, Navbar, Image, Row } from "react-bootstrap"
 import { Props } from "./Footer";
 import { Link } from "react-router-dom";
+import logo from '../img/logo/logo.png'
 
 export const Header = (props:Props) => {
    
@@ -11,7 +12,7 @@ export const Header = (props:Props) => {
                     <Row className="w-100 justify-content-between align-items-center">
                         <Col xs="auto"> 
                             <div className="d-flex align-items-center">
-                                <Image className="w-25" src={`${process.env.PUBLIC_URL}/src/img/logo/logo.png`}/>
+                                <Image className="w-25" src={logo}/>
                                 <Navbar.Brand href="#home" className="ms-2">{props.label}</Navbar.Brand>
                             </div>
                         </Col>
