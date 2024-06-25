@@ -10,7 +10,7 @@ export const Header = (props:Props) => {
                     <Row className="w-100 justify-content-between align-items-center">
                         <Col xs="auto"> 
                             <div className="d-flex align-items-center">
-                                <Image className="w-25" src="reformasBootstrap/src/img/logo/logo.png" />
+                                <Image className="w-25" src="/src/img/logo/logo.png" />
                                 <Navbar.Brand href="#home" className="ms-2">{props.label}</Navbar.Brand>
                             </div>
                         </Col>
