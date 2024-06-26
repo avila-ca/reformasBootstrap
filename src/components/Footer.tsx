@@ -14,7 +14,7 @@ export const Footer = (_props: Props) => {
                 <Container>
                     <Row>
                         <Col className="text-center">
-                            <p>Conecta con nosotros en:</p>
+                            <p>Síguenos en:</p>
                             <div>
                                 <FontAwesomeIcon icon={faTwitter} className="mx-2" />
                                 <FontAwesomeIcon icon={faFacebook} className="mx-2" />
