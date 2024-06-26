@@ -5,7 +5,7 @@ export const Contact = () => {
     return (
         <>
             <main className="container">
-                <Alert.Heading className="text-center">Contacta con nosotros</Alert.Heading>
+                <Alert.Heading className="text-center">Contacta con nosotros:</Alert.Heading>
             <Form className="ms-3 me-3">
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Email</Form.Label>
