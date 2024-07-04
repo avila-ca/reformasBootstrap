@@ -4,6 +4,8 @@ import Card from 'react-bootstrap/Card';
 import project1 from '../img/projects/project1.jpg'
 import project2 from '../img/projects/project2.jpg'
 import project3 from '../img/projects/project3.jpg'
+
+
 export const Projects = () => {
     return (
         <>
