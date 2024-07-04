@@ -10,7 +10,7 @@ export const Footer = (_props: Props) => {
 
     return (
         <>
-            <footer className="bg-light py-4">
+            <footer className="bg-secondary bg-opacity-10 py-4 mt-5">
                 <Container>
                     <Row>
                         <Col className="text-center">
