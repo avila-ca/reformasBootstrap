@@ -15,7 +15,7 @@ export const Header = (props:Props) => {
                                 <Navbar.Brand href="#home" className="ms-2" style={{fontFamily: "Nimbus Sans"}} >{props.label}</Navbar.Brand>
                             </div>
                         </Col>
-                        <Col xs="auto">
+                        <Col  xs="auto">
                             <Nav className="me-auto justify-content-end">
                                 <Nav.Link as={Link} to="/">Inicio</Nav.Link>
                                 <Nav.Link as={Link} to="/projects">Proyectos</Nav.Link>
