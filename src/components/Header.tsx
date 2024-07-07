@@ -13,7 +13,8 @@ export const Header = () => {
                                 <Navbar.Brand href="#home" className="ms-2">Reformas Integrales</Navbar.Brand>
                             </div>
                         </Col>
-                        <Col xs="auto">
+                        <Col xs="autogit pull
+                        ">
                             <Nav className="me-auto justify-content-end">
                                 <Nav.Link href="#home">Home</Nav.Link>
                                 <Nav.Link href="#features">Features</Nav.Link>
